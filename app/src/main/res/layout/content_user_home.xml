@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UserHomeActivity"
+    tools:showIn="@layout/app_bar_user_home">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:id="@+id/linear1"
+        >
+
+        <ImageView
+                android:id="@+id/chair1"
+                android:src="@drawable/chair1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/chair2"
+            android:src="@drawable/chair2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/linear1"
+        android:id="@+id/linear-cost1"
+        >
+
+        <TextView
+            android:id="@+id/text1"
+            android:text="Price: $35"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:text="Price: $40"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear-cost1"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:id="@+id/linear2"
+        >
+        <ImageView
+            android:id="@+id/chair3"
+            android:src="@drawable/chair3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/chair4"
+            android:src="@drawable/chair4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/linear2"
+        android:id="@+id/linear-cost2"
+        >
+
+        <TextView
+            android:id="@+id/text3"
+            android:text="Price: $55"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/txt4"
+            android:text="Price: $60"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear-cost2"
+        android:id="@+id/linear3"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/babysitter"
+            android:src="@drawable/babysitter"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+        <ImageView
+            android:id="@+id/table2"
+            android:src="@drawable/table2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/linear3"
+        android:id="@+id/linear-cost3"
+        >
+
+        <TextView
+            android:id="@+id/text5"
+            android:text="Price: $65"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/txt6"
+            android:text="Price: $70"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="100dp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
